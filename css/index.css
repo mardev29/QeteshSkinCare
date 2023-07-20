@@ -450,6 +450,18 @@ html{
 
 }
 
+
+@media (max-width:480px) {
+    .Section{
+       margin-top: 22rem;
+    }
+
+    .Columns-video {
+        min-height: 14.5rem;
+    }
+
+}
+
 @media (max-width:390px) {
     .Section{
        margin-top: 22rem;
@@ -457,6 +469,17 @@ html{
 
     .Columns-video {
         min-height: 11.7rem;
+    }
+
+}
+
+@media (max-width:389px) {
+    .Texto {
+        margin-top: 200px;
+    }
+
+    .Columns-video {
+        display: none;
     }
 
 }
