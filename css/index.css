@@ -432,7 +432,10 @@ html{
 
 @media (max-width:1500px) {
     .Section{
-       margin-top: 16rem;
+       margin-top: 22rem;
+    }
+    .Columns-video {
+        min-height: 13.8rem;
     }
 
 }
@@ -518,6 +521,7 @@ html{
     font-weight: 400;
     font-size: 1rem;
 }
+
 
 @media (max-width:1260px) {
     .Article-wrapper{
@@ -611,6 +615,26 @@ html{
 .Grid-a:hover::after {
     width: 35%;
 }
+
+@media (max-width:1500px) {
+    .Grid-h2{
+        font-size: 2rem;
+    }
+    .Grid-p{
+        font-size: .7rem;
+    }
+    .Grid-a{
+        font-size: .8rem;
+    }
+
+    .Grid-text {
+        margin-top: 2rem;
+        margin-left: 1.875rem;
+    }
+    
+}
+
+
 @media (max-width:1260px) {
     .Grid-h2{
         font-size: 2rem;
