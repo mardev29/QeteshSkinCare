@@ -251,6 +251,10 @@ html{
     box-shadow: 0rem 0rem 1rem 0 #a6a6a6,
                 0rem 0rem 1rem 0 #ffffff;
 } */
+@media (max-width:80px){
+
+}
+
 
 @media (max-width:780px) {
     .Quetesh-fondo{
@@ -258,13 +262,13 @@ html{
     }
 
     .Main-a{
-        width: 30%;
-        left: 33%;
-        font-size: 1rem;
+        width: 40%;
+        left: 30%;
+        font-size: 0.7rem;
     }
 
     .Main-h2{
-        font-size: 4vw;
+        font-size: 6vw;
         padding: 1rem;
         color: white;
         text-align: center;
@@ -446,6 +450,17 @@ html{
     }
 }
 
+@media (max-width:390px) {
+    .Section{
+       margin-top: 17rem;
+    }
+
+    .Columns-video {
+        min-height: 11.7rem;
+    }
+
+}
+
 /*--------------- Article ---------------*/
 
 .Article-banner{
@@ -485,12 +500,24 @@ html{
     .Article-wrapper{
        grid-template-columns: repeat( 2 , 1fr );
     }
+    .Icon-img{
+        width: 3vw;
+        min-height: 3vh;
+    }
 }
 
 @media (max-width:780px) {
     .Article-wrapper{
-       grid-template-columns: initial;
+        grid-template-columns: repeat( 2 , 1fr );
        justify-content: center;
+    }
+}
+
+@media (max-width:390px){
+    .Icon-img{
+        width: 4.5vw;
+        min-height: 4.5vh;
+        margin-bottom: 0.6rem;
     }
 }
 
@@ -577,6 +604,11 @@ html{
 @media (max-width:480px) {
     .Grid-img{
         max-width: 100%;
+        margin-left: 0rem;
+    }
+    .Grid-text {
+        margin-top: 0.5rem;
+        margin-left: 1.875rem;
     }
 }
 
@@ -742,6 +774,27 @@ html{
 
     .News-svg{
         margin-right: 0;
+    }
+    .News-h2{
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width:390px) {
+    .News {
+        padding: 3rem 2rem;
+    }
+    .News-input {
+        width: 80vw;
+        margin: 1.25rem 0 0 0;
+    }
+
+    .News-svg{
+        margin-right: 0;
+    }
+
+    .News-h2{
+        margin-left: 0rem;
     }
 }
 
