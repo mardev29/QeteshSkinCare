@@ -1,5 +1,6 @@
 'use strict'
 
+/* --------------------Slider-------------------- */
 
 
 const sliderNext = document.querySelector(`.Slider-next`)
@@ -65,6 +66,9 @@ sliderPoint.forEach(( eachPoint , index) => {
 
 
 })
+
+/* --------------------Menu desplegable-------------------- */
+
 
 // Cuando hago CLICK en headerLeft hace un FUNCTION
   // headerUl le TOGGLE de la clase isActive
