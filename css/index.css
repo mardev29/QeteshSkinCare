@@ -1061,7 +1061,7 @@ html{
     right: 1.875rem;
 } 
 
-@media(max-width:480px){
+@media(max-width:800px){
     .Up-chevron {
         display: none;
     }
