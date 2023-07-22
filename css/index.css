@@ -718,6 +718,18 @@ html{
     }
 }
 
+
+@media (max-width:320px) {
+    .Grid-img{
+        max-width: 81.5%;
+        margin-left: 0rem;
+    }
+    .Grid-text {
+        width: 60%;
+        margin-top: 0.3rem;
+        margin-left: 1.875rem;
+    }
+}
 /*--------------- SEPARADOR ---------------*/
 
 .Article-linea{
